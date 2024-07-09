@@ -9,6 +9,4 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = "DotDocument/DotDocument.xcframework"
 
     s.ios.dependency 'asli-sam', '5.1.0'
-    s.ios.dependency 'asli-core', '5.1.0'
-    s.ios.dependency 'asli-camera', '5.1.0'
 end
