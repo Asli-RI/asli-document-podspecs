@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary           = 'ASLI iOS Document'
     s.homepage          = 'https://www.asliri.id'
     s.platform          = :ios
-    s.source            = { :http => "https://storage.googleapis.com/asli-technologies/document-core/DotDocument.zip" }
+    s.source            = { :http => "https://storage.googleapis.com/asli-technologies/DotDocument.zip" }
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = "DotDocument/DotDocument.xcframework"
 
